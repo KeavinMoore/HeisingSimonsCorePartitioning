@@ -1,2 +1,6 @@
 # HeisingSimonsCorePartitioning
 Work-in-progress magma ocean box model of water evolution, accounting for core and transition zone partitioning.
+
+This model is a modified version of the magma ocean module of the water evolution model presented in Moore, David, Zhang, & Cowan (2024). It is a work-in-progress; water partitioning between core and magma ocean, which sets the initial parameters for the magma ocean simulation, works great. The transition zone partitioning implementation is less sound, but the idea is there; this likely needs to be debugged furhter before relying on results and implementing the core AND transition zone changes into the larger magma ocean + deep-water cycling box model.
+
+The Jupyter notebook can be run completely, which will produce many input files and a few figures, or it can be stepped through cell-by-cell to get a better idea of the inner workings of each cell, function, etc. The required input files are also contained within the current repository. Further details of the modelling approach presented within this notebook, including motivation, equations used, and figures of the "piecewise box model" approach to magma ocean solidification, can be found in the corresponding Overleaf file, 'Heising-Simons Core-Magma Ocean Hydrogen Partitioning Project". 
